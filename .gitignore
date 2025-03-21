@@ -1,4 +1,7 @@
-# Python
+# Environment variables
+.env
+
+# Python cache files
 __pycache__/
 *.py[cod]
 *$py.class
@@ -20,7 +23,7 @@ wheels/
 .installed.cfg
 *.egg
 
-# Virtual Environment
+# Virtual environments
 venv/
 env/
 ENV/
@@ -44,13 +47,14 @@ venv.bak/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
 
-# Logs
+# Logs and data
 *.log
-logs/
-log/
+log.txt
+Tweeted_tweets.txt
+All_generated_tweets.txt
+tweet_queue.json
 
 # Local development configuration
-.env
 .env.local
 .env.*.local
 
@@ -69,11 +73,8 @@ htmlcov/
 coverage.xml
 *.cover
 
-# Distribution
-dist/
-build/
+# Distribution / packaging
 *.egg-info/
 
 # Project specific
 Swifty_Tweets.txt 
-Tweeted_tweets.txt
